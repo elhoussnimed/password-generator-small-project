@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcc80;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding: 15px;
+    background-color: #193563;
+    width: 350px;
+    max-width: 90%;
+    box-shadow: 0px 0px 4px 1px #000000bf;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.password {
+    background-color: #5263cf;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.password .fa-clipboard {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 25px;
+    color: darkblue;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.password .fa-clipboard:active {
+    scale: .96;
+}
+
+
+.options {
+    margin-bottom: 15px;
+}
+
+.options>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.options input[type="number"] {
+    padding: 2px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    background-color: #5263cf;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s all ease;
+}
+
+.btn:active {
+    scale: .98;
+}
